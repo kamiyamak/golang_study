@@ -16,17 +16,17 @@ func main() {
 	fmt.Println(reflect.TypeOf(num03))
 	fmt.Println(reflect.TypeOf(num04))
 
-	var string_a string = "Hello,World!"
-	string_b := "Hello,World!"
-	fmt.Println(string_a)
-	fmt.Println(reflect.TypeOf(string_a))
-	fmt.Println(string_b)
-	fmt.Println(reflect.TypeOf(string_b))
+	var stringA string = "Hello,World!"
+	stringB := "Hello,World!"
+	fmt.Println(stringA)
+	fmt.Println(reflect.TypeOf(stringA))
+	fmt.Println(stringB)
+	fmt.Println(reflect.TypeOf(stringB))
 
 	a := 10
 	b := 1
-	num_bool := a < b
+	numbool := a < b
 
-	fmt.Println(num_bool)
-	fmt.Println(reflect.TypeOf(num_bool))
+	fmt.Println(numbool)
+	fmt.Println(reflect.TypeOf(numbool))
 }
